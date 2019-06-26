@@ -30,10 +30,11 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch (position){
             case 0:
-                fragment = new UserPage();
+                fragment = new LoginPage();
                 break;
             default:
-                PlaceholderFragment.newInstance(position + 1);
+                fragment = new LoginPage();
+                //PlaceholderFragment.newInstance(position + 1);
                 break;
         }
         // getItem is called to instantiate the fragment for the given page.

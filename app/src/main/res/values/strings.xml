@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Globed</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="login_title">Login</string>
+    <string name="username_or_email_field">Username or Email</string>
+    <string name="password_label">Password</string>
+</resources>

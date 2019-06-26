@@ -19,7 +19,7 @@ import com.e.globed.R;
  */
 public class PlaceholderFragment extends Fragment {
 
-    private static final String ARG_SECTION_NUMBER = "section_number";
+    /*private static final String ARG_SECTION_NUMBER = "section_number";
 
     private PageViewModel pageViewModel;
 
@@ -55,5 +55,5 @@ public class PlaceholderFragment extends Fragment {
             }
         });
         return root;
-    }
+    }*/
 }

@@ -3,8 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
     android:orientation="vertical"
-    tools:context=".ui.main.LoginPage" >
+    tools:context=".ui.main.LoginPage">
 
     <TextView
         android:id="@+id/login_title"
@@ -12,6 +14,10 @@
         android:layout_height="wrap_content"
         android:text="@string/login_title"
         android:textSize="36sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
 
     <TextView
         android:id="@+id/username_label"
@@ -25,8 +31,12 @@
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:ems="10"
-        android:hint="Username or Email"
-        android:inputType="textPersonName" />
+        android:hint="@string/username_or_email_field"
+        android:inputType="textPersonName|textEmailAddress" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
 
     <TextView
         android:id="@+id/password_label"
@@ -39,6 +49,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/password_label"
         android:importantForAutofill="no"
         android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_title" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="forgot Password" />
+
 </LinearLayout>
